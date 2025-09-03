@@ -5,7 +5,6 @@ ZSH_THEME="xiong-chiamiov-plus"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
-alias xcfix='~/fix-xcode && ./Scripts/xcodegen/xcodegen-remove-all.sh && ./Scripts/xcodegen/xcodegen-reset.sh && ./Scripts/xcodegen/xcodegen-all.sh'
 alias bye-res='git checkout -- "*.resolved"'
 alias gs="git status"
 alias c="cursor ."
